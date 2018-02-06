@@ -1,0 +1,162 @@
+h1 {
+    font-family:'Georgia', Times, Times New Roman, serif;
+}
+
+header {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    height: 75px;
+    border-bottom: solid 2px #cccccc;
+    
+}
+
+.main-content {
+    background:#ffffff;
+    width: 650px;
+    margin: 40px 40px 40px 100px;
+    float: left;
+    border: #cccccc solid 1px;
+}
+
+.social-media {
+    background: #ffffff;
+    width: 270px;
+    float: left;
+    margin-top: 40px;
+    text-align: center;
+    color: #4aaaa5;
+    font-size: 20px;
+    padding: 20px 0px 20px 0px;
+    border: #cccccc solid 1px;
+}
+
+.contents {
+    margin-left: 530px;
+    padding-top: 25px;
+    vertical-align: middle;
+    float: left;
+    height: 75px;
+    display: inline;
+}
+
+#profile-pic {
+    float: left;
+    margin: 15px 15px 15px 32px;
+    
+}
+
+form {
+    margin: 20px 20px 20px 30px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=text] {
+    width: 97%;
+    color: #777777;
+    height: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-color: #cccccc;
+}
+
+
+
+input[type=submit]{
+    width: 100px;
+    height:40px;
+    background: #4aaaa5;
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#name {
+    background: #4aaaa5;
+    margin-left: 100px;
+    padding: 20px 35px 20px 35px;
+    font-size: 36px;
+    color: #ffffff;
+    vertical-align: middle;
+    float: left;
+}
+
+header a {
+     display: inline;
+     margin-left: 10px;
+     margin-right: 10px;
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     color: #777777;
+     text-decoration: none;  
+ }
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#message {
+    height: 200px;
+    width: 97%;
+    color: #777777;
+    border-width: 1px;
+    border-color: #cccccc;
+    margin-top: 10px;
+}
+
+#title {
+    color: #4aaaa5;
+    padding: 15px 0px 5px 32px;
+    font-size: 32px;
+}
+
+.port-icons {
+    margin-left: 55px;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #4aaaa5;
+    color: #ffffff;
+    height: 30px;
+    padding-top: 15px;
+    position: absolute;
+    bottom: 40px;
+    width: 250px;
+}
+
+.icons {
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+
+
+hr {
+    width: 90%;
+    border-color: #cccccc;
+    border-style: solid;
+}
+
+footer {
+    text-align: center;
+    background: #666666;
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    clear: both;
+    padding: 20px 0px 20px 0px;
+    color: #cccccc;
+    font-size: 14px;
+    border-top: #4aaaa5 solid 10px;
+}
