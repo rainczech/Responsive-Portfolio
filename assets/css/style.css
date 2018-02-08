@@ -160,3 +160,102 @@ footer {
     font-size: 14px;
     border-top: #4aaaa5 solid 10px;
 }
+
+@media screen and (max-width: 980px) {
+    .contents {
+        margin-left: 330px;
+    }
+
+    .main-content {
+        width: 450px;
+    }
+
+    p {
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    .icons {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #name {
+        margin-left: 50px;
+    }
+    .contents {
+        margin-left: 225px;
+    }
+    .main-content {
+        width: 85%;
+        margin-left: 50px;
+    }
+
+    .social-media {
+        width: 85%;
+        margin-left: 50px;
+        margin-bottom: 50px;
+       }
+    .icons {
+        float: left;
+        margin-left: 0px;
+    }
+    .port-icons {
+        margin-left: 55px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #name {
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .contents {
+        width: 100%;
+        margin: 0;
+        background: #fff;
+        height: 30px;
+        text-align: center;
+    }
+    .port-icons {
+        margin-left: 0px;
+        width: 100%;
+    }
+    p {
+        font-size: 16px;
+    }
+
+    h4 {
+        width: 400px;
+    }
+    img {
+        width: 400px;
+        height: 400px;
+    }
+    .icons {
+        float: none;
+        display: block;
+        height: 400px;
+        width: 400px;
+        margin-left: 60px;
+
+    }
+    #profile-pic {
+        display: block;
+        float: none;
+        height: 300px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sm-icon {
+        height: 40px;
+        width: 40px;
+    }
+}
